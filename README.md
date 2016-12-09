@@ -1,3 +1,5 @@
+> Work in progress
+
 #  GAMALIEL - Building Your First Clean Architecture Code using Python - A Step by step Example
 
 ## Gambaran
