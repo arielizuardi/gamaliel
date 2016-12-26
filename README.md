@@ -19,8 +19,7 @@ Konsep [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-c
 >
 > If you system architecture is all about the use cases, and if you have kept your frameworks at arms-length. Then **you should be able to unit-test all those use cases** without any of the frameworks in place. You shouldn’t need the web server running in order to run your tests. You shouldn’t need the database connected in order to run your tests. Your business objects should be plain old objects that have no dependencies on frameworks or databases or other complications. Your use case objects should coordinate your business objects. And all of them together should be testable in-situ, without any of the complications of frameworks. -  https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
 
-
-
+Ref.
 [Clean Architectures in Python a step by step example]([http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example]) oleh Leonardo Giordani
 
 
