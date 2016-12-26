@@ -4,28 +4,24 @@
 
 ## Gambaran
 
-
-
+Dalam membuat suatu aplikasi, kita menginginkan aplikasi tersebut dibangun secara terstruktur, mudah dimengerti dan *easy to maintain*. Salah satu solusinya adalah menggunakan konsep *clean architecture*. Dalam tutorial ini kita akan membuat sebuah aplikasi RESTful API menggunakan bahasa pemrograman *Python* dan *clean architecture* 
 
 
 ## Apa itu Clean Architecture ?
 
-[The Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) post dari Uncle Bob
-
-[Clean Architectures in Python a step by step example]([http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example]) oleh Leonardo Giordani
-
-Tujuannya adalah agar setiap lapisan sifatnya independent dan testable
+Konsep [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) pertama kali diperkenalkan oleh Uncle Bob. Uncle Bob menjelaskan suatu aplikasi dapat dibagi ke dalam beberapa lapisan. Mengapa dibagi ke dalam beberapa lapisan? Di dalam dunia *software engineering* kita mengenal prinsip *separation of concerns*. Prinsip Separation of concerns bertujuan untuk menghasilkan aplikasi yang mudah untuk di *maintain*, di modifikasi, bersifat independen dan mudah untuk dites. Lapisan-lapisan yang akan kita gunakan dalam tutorial ini adalah **entities, use cases, repositories** dan **delivery.**
 
 > #### Separation of Concerns
 >
 > It **emphasizes the use of interfaces for behavior contracts**, and it forces **the externalization of infrastructure** - http://jeffreypalermo.com/blog/the-onion-architecture-part-1/
 
-
-
 > #### Testable Architectures
 >
 > If you system architecture is all about the use cases, and if you have kept your frameworks at arms-length. Then **you should be able to unit-test all those use cases** without any of the frameworks in place. You shouldn’t need the web server running in order to run your tests. You shouldn’t need the database connected in order to run your tests. Your business objects should be plain old objects that have no dependencies on frameworks or databases or other complications. Your use case objects should coordinate your business objects. And all of them together should be testable in-situ, without any of the complications of frameworks. -  https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html
 
+
+
+[Clean Architectures in Python a step by step example]([http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example]) oleh Leonardo Giordani
 
 
 ## Apa yang akan kita buat?
